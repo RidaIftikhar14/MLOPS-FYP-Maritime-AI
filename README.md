@@ -1,1 +1,12 @@
-# MLOPS-FYP-Maritime-AI
+# Maritime Decision Support System (Maritime AI)
+
+It is not efficient to always keep an eye on the vessels within a region in case of trespassing the given restrictions such as diverging from its allocated sea lines, attaining anomalous speed with respect to the goods being carried or exchange of resources among the ships, as it is done manually with the help of lots of equipment and manpower. We will be designing a Maritime Decision Support System to automate the whole process of anomaly detection, the project will utilize the automatic identification system (AIS) that reports vessels’ static information such as the vessel’s name, cargo and voyage which are transmitted every six minutes and dynamic information which is transmitted every two to ten seconds while underway as well as every three minutes while at anchor, which are essential for maritime traffic situation awareness. The AIS data along with Artificially Intelligent Algorithms will be used to identify:
+
+● Anomalous traffic pattern, if a ship deviates from the sea lines of communication (SLOC), an alarm annotating the deviation from the SLOC will be generated.
+
+● Kinematics Deviation, every registered vessel has some particular details which describe the vessel for example the vessel name, country of origin of the vessel, the registration number (IMO), current flag state, maritime mobile service identity (MMSI), length, width, and some technical information such as tonnage, cargo size, speed etc. Machine Learning and Neural Network algorithms will be designed to query live data of vessels which will be used to extract the required information. This information will be used in order to identify an anomalous pattern in speed and course of the ship. Precisely predicting how maneuverable a vessel is according to size and capacity of ship as well as whether a vessel is broadcasting false IMO number.
+
+● Anomalous movement of materials from vessels, an intelligent algorithm will be designed to read and analyze the dispersal pattern of cargo according to temporal and spatial information. In case of unusual movements from the vessel an alarm will be generated.
+
+#AIS Data
+The data being used for the Maritime Decision Support System is being utilized from https://marinecadastre.gov/ais/. We have currently used data for the year 2022. The data for 2022 is availible for 12 months. For instance AIS_2022_01_01 and AIS_2022_01_31 are one of the file names for the month of January.
