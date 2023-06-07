@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Maritime AI</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="{{ url_for('static',filename='css/index.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static',filename='css/controls.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static',filename='css/table.css') }}">
+        <link rel="shortcut icon" href="{{ url_for('static', filename='images/favicon.ico') }}">
+
+
+        <link rel="stylesheet" href="{{ url_for('static',filename='leaflet/leaflet.css') }}"/>
+        <script src="{{ url_for('static',filename='leaflet/leaflet.js') }}"></script>
+        <script src="{{ url_for('static',filename='leaflet/leaflet.rotatedMarker.js') }}"></script>
+
+        <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+
+</head>
+    <body>
+        <div class="container">
+            <div class="navbar">
+                <div id="nav_logo"><img src="static\images\MartimeAI_logo.png" alt="Logo"></div>
+                <div class="button-container">
+                    <button class="navbuttons">HOME</button>
+                    <button class="navbuttons">ABOUT</button>
+                </div>
+            </div>
+            <div id="map"></div>
+            <div id="predictions"></div>
+        </div>
+        <div>
+            <div id="left_arrow"><div class="triangle-left"></div></div>
+            <div id="middle_text"><div id="middle_text_text">1x</div></div>
+            <div id="right_arrow"><div class="triangle-right"></div></div>
+            <div id="timer_bg"></div>
+            <div id="timer">00 : 00 : 00 : 000</div>
+            <p id="theme_label">THEME:</p>
+            <label class="switch">
+                <input type="checkbox" onclick="change_theme()" id="theme_changer">
+                <span class="slider round"></span>
+            </label>
+        </div>
+
+
+        <div id="searchbox" d>
+            <p id="searchboxtext">SEARCH:</p>
+            <input type="text" id="search-box" name="search-box" autocomplete="on" onkeyup="showPredictions(event)">
+            <button id="searchbtn" type="button" onclick="sendSearchQuery()"><img src="static\images\searchicon.png" alt="Search"></button>
+        </div>
+        <div id="before_popup_content"></div>
+        <div id="popup" class="popup">
+                <div class="popup-close" id="crossmark" onclick="hidePopup()">&times;</div>
+            <div class="popup-header">
+            </div>
+            <div id="popup-content"></div>
+        </div>
+
+        <div id="information_card">
+            <div class="gallery-container">
+                <div class="gallery-item">
+                    <img src="{{ url_for('static',filename='images/vessel_30_big.ico') }}" alt="Image 1">
+                    <div class="gallery-item-text">
+                        <p>vessel type 1</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="{{ url_for('static',filename='images/vessel_31_big.ico') }}" alt="Image 1">
+                    <div class="gallery-item-text">
+                        <p>vessel type 2</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="{{ url_for('static',filename='images/vessel_37_big.ico') }}" alt="Image 1">
+                    <div class="gallery-item-text">
+                        <p>vessel type 3</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="{{ url_for('static',filename='images/vessel_52_big.ico') }}" alt="Image 1">
+                    <div class="gallery-item-text">
+                        <p>vessel type 4</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="{{ url_for('static',filename='images/vessel_57_big.ico') }}" alt="Image 1">
+                    <div class="gallery-item-text">
+                        <p>vessel type 5</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="{{ url_for('static',filename='images/vessel_60_big.ico') }}" alt="Image 1">
+                    <div class="gallery-item-text">
+                        <p>vessel type 6</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="{{ url_for('static',filename='images/vessel_69_big.ico') }}" alt="Image 1">
+                    <div class="gallery-item-text">
+                        <p>vessel type 7</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="{{ url_for('static',filename='images/vessel_70_big.ico') }}" alt="Image 1">
+                    <div class="gallery-item-text">
+                        <p>vessel type 8</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="{{ url_for('static',filename='images/vessel_80_big.ico') }}" alt="Image 1">
+                    <div class="gallery-item-text">
+                        <p>vessel type 9</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="anomaly_detection_log" class="popup2" onclick="myFunction()">
+            <span class="popuptext" id="myPopup">
+            <div class="table-container">
+                
+                <table id="myTable">
+                    <thead>
+                        <tr>
+                        <th>MMSI</th>
+                        <th>TIME</th>
+                        <th>TYPE</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+            </span>
+            <p id="LOG_text">< LOG</p>
+        </div>
+        <div id="anomaly_detection_issue_big">
+            <img id="anomaly_detection_issue_big_img" src="{{ url_for('static',filename='images/big_warning.png') }}" alt="big_warning">
+        </div>
+        <div id="anomaly_detection_issue_small">
+            <img id="anomaly_detection_issue_small_img" src="{{ url_for('static',filename='images/small_warning.png') }}" alt="small_warning">
+        </div>
+        <div class="anomaly_detection_issue_big_value">0</div>
+        <div class="anomaly_detection_issue_small_value">0</div>
+        <script type="text/javascript" src="{{ url_for('static',filename='script/index.js') }}"></script>
+        <script type="text/javascript" src="{{ url_for('static',filename='script/controls.js') }}"></script>
+    </body>
+</html>
