@@ -31,12 +31,12 @@ jobs:
 
       - name: Pull DVC data
         run: dvc pull
-
-      - name: Clone training code repository
+        
+      - name: Load DVC datasets
         run: |
-          git clone https://github.com/your-username/training-code.git
-          cd training-code
-
+          dvc import dataset1.dvc data/
+          dvc import dataset2.dvc data/
+          
       - name: Run training
         run: |
           python train_model1.py --data ../data/dataset1.csv
