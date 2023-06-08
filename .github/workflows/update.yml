@@ -27,7 +27,7 @@ jobs:
         run: |
           pip install dvc
           dvc init
-          dvc remote add -d mydrive gdrive://your_drive_id
+          dvc remote add -d mydrive gdrive://1TcslBQ2BQ5kNbIYLbQENGpW1UfrR1rH-
 
       - name: Pull DVC data
         run: dvc pull
