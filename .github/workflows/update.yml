@@ -50,5 +50,8 @@ jobs:
           dvc push
 
       - name: Deploy Flask app
+        env:
+          MODEL1_PATH: models/model1.pkl
+          MODEL2_PATH: models/model2.pkl
         run: |
           python server.py
