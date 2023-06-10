@@ -34,24 +34,24 @@ jobs:
         
       - name: Load DVC datasets
         run: |
-          dvc import dataset1.dvc data/
-          dvc import dataset2.dvc data/
+          dvc import route_github.csv.dvc data/
+      
           
       - name: Run training
         run: |
-          python train_model1.py --data ../data/dataset1.csv
-          python train_model2.py --data ../data/dataset2.csv
+          python vs_anomaly.py --data ../data/route_github.csv
+         
 
       - name: Save models to DVC
         run: |
           cd ..
-          dvc add model1.pkl
-          dvc add model2.pkl
+          dvc add model_route.pkl
+
           dvc push
 
       - name: Deploy Flask app
         env:
           MODEL1_PATH: models/model1.pkl
-          MODEL2_PATH: models/model2.pkl
+        
         run: |
           python server.py
