@@ -38,7 +38,7 @@ jobs:
       - name: Run Flask app
         run: |
           cd app/
-          python app.py
+          python server.py
 #       - name: Deploy to Flask app
 #         uses: peaceiris/actions-gh-pages@v3
     
