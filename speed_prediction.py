@@ -19,8 +19,18 @@ from sklearn.preprocessing import StandardScaler,Normalizer
 import plotly.graph_objects as go
 np.random.seed(1)
 tf.random.set_seed(1)
+import dvc.api
 
-df = pd.read_csv('model_data_preprocess.csv')
+# Read the DVC-tracked data using DVC
+data_path = 'MLOPS-FYP/model_data_preprocess.csv'
+with dvc.api.open(data_path) as file:
+    # Use the data in your code
+    df = file.read()
+
+# Rest of your speed_prediction.py code
+# ...
+
+#df = pd.read_csv('model_data_preprocess.csv')
 
 import pandas as pd
 
