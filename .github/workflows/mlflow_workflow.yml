@@ -29,6 +29,10 @@ jobs:
     - name: Configure Google Drive remote
       run: dvc remote add -f gdrive gdrive:1TcslBQ2BQ5kNbIYLbQENGpW1UfrR1rH-
       
+    - name: Push Data from MLOPS-FYP
+      run: dvc push -r gdrive
+
+      
     - name: Pull DVC-tracked data
       run: dvc pull -r gdrive MLOPS-FYP/route_data.csv
 
