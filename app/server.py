@@ -31,12 +31,12 @@ app = Flask(__name__)
 
 print('Reading simulation csv')
 # df = pd.read_csv('data/complete_journeys.csv')
-df = pd.read_csv('data/all_ships.csv')
+df = pd.read_csv('all_ships.csv')
 # df = pd.read_csv('data/model_data_preprocess.csv')
 
 print('Reading timestamp information')
 # Intervals = pd.read_csv('data/interval_list.csv')
-Intervals = pd.read_csv('data/all_ships_interval_list.csv')
+Intervals = pd.read_csv('all_ships_interval_list.csv')
 
 # ANOMALY 1 DATASET///////////////////////////////////////////////
 # df_anomalous = pd.read_csv('data/test_route_aliza.csv')
@@ -45,7 +45,7 @@ list_for_models = []
 
 # PORTS /////////////////////////////////////////////////////////
 print('Reading Port information')
-ports_df = pd.read_csv('data/ports.csv')
+ports_df = pd.read_csv('ports.csv')
 ports_df = ports_df.drop('Unnamed: 0',axis=1)
 
 # SORTING ///////////////////////////////////////////////////////
