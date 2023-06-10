@@ -34,6 +34,6 @@ jobs:
 
 
     - name: Train models
-      run: python Vs_anomaly.py
+      run: python MLFlow_route.py
 
    
