@@ -26,12 +26,17 @@ jobs:
         run: |
           pip install dvc
           pip install dvc-gdrive
-
+   
+      - name: Configure Google Drive remote
+        run: dvc remote add -f gdrive gdrive:1TcslBQ2BQ5kNbIYLbQENGpW1UfrR1rH-
+      
+      - name: Pull DVC-tracked data
+        run: dvc pull -r gdrive
         
 
 
-      - name: Pull DVC data
-        run: dvc pull
+#       - name: Pull DVC data
+#         run: dvc pull
         
       - name: Load DVC datasets
         run: |
