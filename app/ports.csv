@@ -1,0 +1,551 @@
+,Country,Port,Longitude,Latitude
+0,Afghanistan,Kabul,69.16055555555556,34.54388888888889
+1,Albania,Durres,19.448611111111113,41.31861111111112
+2,Albania,Sarande,20.0,39.88305555555556
+3,Albania,Shengjin,19.6,41.81666666666667
+4,Albania,Valona,19.498333333333335,40.44972222222222
+5,Albania,Vlore,19.45861111111111,40.49666666666667
+6,Algeria,Algeria,3.063611111111111,36.78111111111111
+7,Algeria,Annaba,7.770833333333333,36.908055555555556
+8,Algeria,Arzew,,35.823055555555555
+9,Algeria,Arzew El-Djedid,,35.79527777777778
+10,Algeria,Bejaia,5.076111111111111,36.75
+11,Algeria,Benisaf,,35.169999999999995
+12,Algeria,Beni Saf,,35.3
+13,Algeria,Cherchell,2.1830555555555553,36.6
+14,Algeria,Collo,6.5377777777777775,37.047777777777775
+15,Algeria,Dellys,3.9166666666666665,36.916666666666664
+16,Algeria,Djazair,3.065,36.78583333333333
+17,Algeria,Djen-Djen,5.883055555555556,36.81666666666667
+18,Algeria,Ghazaouet,,35.1
+19,Algeria,Jijel,5.766111111111111,36.824444444444445
+20,Algeria,Mestghanem,0.08305555555555555,35.933055555555555
+21,Algeria,Mostaganem,0.06472222222222222,35.91638888888889
+22,Algeria,Oran,,35.71666666666667
+23,Algeria,Port Methanier,6.968333333333334,36.88
+24,Algeria,Skikda,6.889444444444444,36.88472222222222
+25,Algeria,Tenes,1.331388888888889,36.51694444444444
+26,American Samoa,Pago Pago,,
+27,Angola,Ambriz,13.109444444444444,
+28,Angola,Cabinda,12.187222222222223,
+29,Angola,Essungo Marine Terminal,12.323888888888888,
+30,Angola,Futila Terminal,12.212777777777777,
+31,Angola,Girassol Terminal,12.96861111111111,
+32,Angola,Kiabo Marine Terminal,12.919722222222221,
+33,Angola,Kiame Marine Terminal,12.85,
+34,Angola,Lobito,13.540555555555555,
+35,Angola,Lombo Marine Terminal,12.543611111111112,
+36,Angola,Luanda,13.255,
+37,Angola,Malongo Terminal,12.140555555555554,
+38,Angola,Mocamedes,12.116666666666667,
+39,Angola,Palanca Terminal,12.674444444444443,
+40,Angola,Porto Amboim,13.75,
+41,Angola,Soyo,12.290833333333333,
+42,Angola,Sumbe,13.84,
+43,Angola,Takula Terminal,12.016666666666667,
+44,Antigua and Barbuda,St. Johns,,17.116666666666667
+45,Argentina,Arroyo Seco,,
+46,Argentina,Atucha,,
+47,Argentina,Bahia Blanca,,
+48,Argentina,Buenos Aires,,
+49,Argentina,Caleta Paula,,
+50,Argentina,Campana,,
+51,Argentina,Comodoro Rivadacomod,,
+52,Argentina,Concepcion,,
+53,Argentina,Deseado,,
+54,Argentina,Diamante,,
+55,Argentina,Ensenada,,
+56,Argentina,Ibicuy,,
+57,Argentina,La Plata,,
+58,Argentina,Mar del Plata,,
+59,Argentina,Puerto Deseado,,
+60,Argentina,Puerto Madryn,,
+61,Argentina,Puerto Martins,,
+62,Argentina,Puerto Parana,,
+63,Argentina,Punta Colorada,,
+64,Argentina,Punta Loyola,,
+65,Argentina,Quequen,,
+66,Argentina,Ramallo,,
+67,Argentina,Rio Cullen Marine Terminal,,
+68,Argentina,Rio Gallegos,,
+69,Argentina,Rio Grande,,
+70,Argentina,Rosario,,
+71,Argentina,San Antonio Este,,
+72,Argentina,San Julian,,
+73,Argentina,San Lorenzo,,
+74,Argentina,San Nicolas,,
+75,Argentina,San Sebastian Bay,,
+76,Argentina,Santa Cruz,,
+77,Argentina,Santa Fe,,
+78,Argentina,Ushuaia,,
+79,Argentina,Villa Constitucvilla,,
+80,Argentina,Zarate,,
+81,Aruba,Aruba,,12.475277777777778
+82,Aruba,Barcadera,,12.481666666666667
+83,Aruba,Oranjestad,,12.537777777777778
+84,Aruba,San Nicolas,,12.433055555555555
+85,Australia,Abbot Point,148.05555555555557,
+86,Australia,Adelaide,138.48805555555555,
+87,Australia,Airlie Island,115.16722222222222,
+88,Australia,Albany,117.85027777777778,
+89,Australia,Ardrossan,137.91666666666666,
+90,Australia,Ballast Head,137.7613888888889,
+91,Australia,Barrow Island,115.40694444444445,
+92,Australia,Bell Bay,146.81583333333336,
+93,Australia,Bing Bong,136.21972222222223,
+94,Australia,Botany Bay,151.23916666666665,
+95,Australia,Brisbane,153.18305555555554,
+96,Australia,Broome,122.23333333333333,
+97,Australia,Bunbury,115.63444444444445,
+98,Australia,Bundaberg,152.38861111111112,
+99,Australia,Burnie,145.89249999999998,
+100,Australia,Cairns,145.78305555555556,
+101,Australia,Cape Cuvier,113.41611111111112,
+102,Australia,Cape Flattery,145.2836111111111,
+103,Australia,Cape Jervis,138.13833333333332,
+104,Australia,Carnarvon,113.6438888888889,
+105,Australia,Challis Venture Terminal,125.01666666666667,
+106,Australia,Cossack Pioneer Terminal,116.44972222222222,
+107,Australia,Dampier,116.72722222222222,
+108,Australia,Darwin,130.84694444444446,
+109,Australia,Darwin (Nt),130.82888888888888,
+110,Australia,Devonport,146.35277777777776,
+111,Australia,Eden,149.8836111111111,
+112,Australia,Esperance,121.88305555555554,
+113,Australia,Exmouth,114.16666666666667,
+114,Australia,Fremantle,115.75194444444445,
+115,Australia,Geelong,144.36666666666667,
+116,Australia,Gladstone,151.25944444444445,
+117,Australia,Gove,136.58138888888888,
+118,Australia,Griffin Venture Terminal,114.63305555555554,
+119,Australia,Groote Eylandt,114.64361111111111,
+120,Australia,Hastings,145.21666666666667,
+121,Australia,Hay Point,149.2711111111111,
+122,Australia,Hobart,147.33305555555555,
+123,Australia,Jabiru Marine Terminal,125.0,
+124,Australia,Karumba,140.80027777777778,
+125,Australia,Kingscote,137.60583333333332,
+126,Australia,Kingston,147.3163888888889,
+127,Australia,Klein Point,137.76111111111112,
+128,Australia,Kwinana,115.76666666666667,
+129,Australia,Launceston,147.10416666666666,
+130,Australia,Longreach Tasmanian,146.90194444444444,
+131,Australia,Lucinda,146.33305555555555,
+132,Australia,Mackay,149.21666666666667,
+133,Australia,Maryborough,143.45000000000002,
+134,Australia,Melbourne,144.94416666666666,
+135,Australia,Milner Bay,136.46055555555554,
+136,Australia,Mourilyan,146.13194444444446,
+137,Australia,Newcastle,151.75,
+138,Australia,Penneshaw,137.94444444444446,
+139,Australia,Perth,115.81638888888888,
+140,Australia,Port Alma,150.85833333333332,
+141,Australia,Port Bonython,137.74444444444444,
+142,Australia,Port Giles,137.74444444444444,
+143,Australia,Port Hedland,118.54222222222222,
+144,Australia,Port Huon,146.96666666666667,
+145,Australia,Port Kembla,150.8972222222222,
+146,Australia,Portland,141.58916666666667,
+147,Australia,Port Latta,145.36666666666667,
+148,Australia,Port Lincoln,135.83916666666667,
+149,Australia,Port Phillip Bay,151.23,
+150,Australia,Port Pirie,138.0838888888889,
+151,Australia,Port Stanvac,138.53777777777776,
+152,Australia,Port Walcott,117.18305555555555,
+153,Australia,Saladin Marine Terminal,115.05,
+154,Australia,Spring Bay,147.93861111111113,
+155,Australia,Stag Marine Terminal,116.25,
+156,Australia,Stanley,145.19555555555556,
+157,Australia,Strahan,145.33305555555555,
+158,Australia,Sydney,151.18277777777777,
+159,Australia,Thevenard,133.5336111111111,
+160,Australia,Thursday Island,142.19444444444446,
+161,Australia,Torres Strait,146.25,
+162,Australia,Townsville,146.84305555555557,
+163,Australia,Useless Loop,113.39972222222222,
+164,Australia,Varanus Island Terminal,115.59972222222221,
+165,Australia,Wallaroo,137.64388888888888,
+166,Australia,Wandoo Marine Terminal,116.41666666666667,
+167,Australia,Weipa,141.87194444444447,
+168,Australia,Whyalla,137.58305555555555,
+169,Australia,Wyndham,128.12194444444447,
+170,Australia,Yamba,153.33916666666667,
+171,Austria,Vienna,16.36388888888889,48.21361111111111
+172,Austria,Wels,14.033055555555556,48.166666666666664
+173,Azerbaijan,Baku,49.8875,40.38138888888889
+174,Bahamas,Freeport,,26.50861111111111
+175,Bahamas,Inagua Islands,-73.0,21.516666666666666
+176,Bahamas,Nassau,,25.083055555555557
+177,Bahamas,Ocean Cay,,25.416666666666668
+178,Bahamas,South Riding Point,,26.644166666666667
+179,Bahrain,Bahrain,50.61666666666667,26.205277777777777
+180,Bahrain,Mina Sulman,50.62555555555556,26.010833333333334
+181,Bahrain,Sitra,50.632777777777775,26.141111111111112
+182,Bangladesh,Chalna,89.51638888888888,22.6
+183,Bangladesh,Chittagong,91.83833333333332,22.330833333333334
+184,Bangladesh,Dhaka,90.43722222222223,23.6875
+185,Bangladesh,Mongla,89.5825,22.46722222222222
+186,Barbados,Bridgetown,,13.083055555555555
+187,Belarus,Brest,23.689722222222223,52.10333333333333
+188,Belgium,Antwerpen,4.382777777777777,51.202222222222225
+189,Belgium,Brussels,4.35,50.86666666666667
+190,Belgium,Ghent,3.7344444444444447,51.08027777777778
+191,Belgium,Hemiksem,4.209722222222222,51.09
+192,Belgium,Liege,5.566666666666666,50.666666666666664
+193,Belgium,Londerzeel,4.179722222222223,51.0
+194,Belgium,Nieuwpoort,2.7183333333333333,51.14972222222222
+195,Belgium,Ostend,2.9030555555555555,51.225833333333334
+196,Belgium,Zeebgrugge,3.2172222222222224,51.33694444444445
+197,Belize,Belize,,17.503611111111113
+198,Belize,Belize City,,17.499722222222225
+199,Benin,Cotonou,2.4330555555555553,6.35
+200,Benin,Seme Terminal,2.6666666666666665,6.25
+201,Bermuda,Freeport,,32.31666666666667
+202,Bermuda,Hamilton,,32.283055555555556
+203,Bermuda,St George's,,32.36666666666667
+204,Bolivia,San Pedro,,
+205,Brazil,Alumar,,
+206,Brazil,Angra dos Reis,,-23.0
+207,Brazil,Aracaju,,
+208,Brazil,Aracati,,
+209,Brazil,Aratu,,
+210,Brazil,Areia Branca,,
+211,Brazil,Barao De Teffe,,
+212,Brazil,Belem,,
+213,Brazil,Cabedello,,
+214,Brazil,Carmopolis,,
+215,Brazil,Corumba,,-19.0
+216,Brazil,Dow Quimica Terminal,,
+217,Brazil,Forno,,
+218,Brazil,Fortaleza,,
+219,Brazil,Gebig,,
+220,Brazil,Guamare Oil Terminal,,
+221,Brazil,Ilheus,,
+222,Brazil,Imbituba,,
+223,Brazil,Itajai,,
+224,Brazil,Itapoa,,
+225,Brazil,Itaqui,,
+226,Brazil,Joao Pessoa,,
+227,Brazil,Laguna,,
+228,Brazil,Macapa,,0.0775
+229,Brazil,Maceio,,
+230,Brazil,Manaus,,
+231,Brazil,Munguba,,
+232,Brazil,Natal,,
+233,Brazil,Navegantes,,
+234,Brazil,Niteroi,,
+235,Brazil,Obidos,,
+236,Brazil,Paranagua,,
+237,Brazil,Pecem,,
+238,Brazil,Pelotas,,
+239,Brazil,Ponta Ubu,,
+240,Brazil,Porto Abc Norte,,
+241,Brazil,Porto Alegre,,
+242,Brazil,Portocel,,
+243,Brazil,Porto-Ilha,,
+244,Brazil,Praia Mole,,
+245,Brazil,Recife,,
+246,Brazil,Regencia,,
+247,Brazil,Rio De Jan Eiro,,
+248,Brazil,Rio Grande,,
+249,Brazil,Salvador,,
+250,Brazil,Santa Clara,,
+251,Brazil,Santana,,
+252,Brazil,Santarem,,
+253,Brazil,Santos,,
+254,Brazil,Sao Francisco,,
+255,Brazil,Sao Sebastiao,,
+256,Brazil,Sepetiba,,
+257,Brazil,Suape,,
+258,Brazil,Tramandai,,
+259,Brazil,Trombetas,,
+260,Brazil,Tubarao,,
+261,Brazil,Usiba,,
+262,Brazil,Vila do Conde,,
+263,Brazil,Vitoria,,
+264,British Virgin Islands,Charlotte Amalie,,18.33111111111111
+265,British Virgin Islands,Road Harbour,,18.41111111111111
+266,British Virgin Islands,Tortola,,18.428333333333335
+267,Brunei,Kuala Belait,114.22694444444444,4.588611111111111
+268,Brunei,Lumut,114.46361111111112,4.67
+269,Brunei,Muara,115.06555555555555,5.022777777777778
+270,Brunei,Muara Harbour,115.065,5.009722222222222
+271,Brunei,Seria,114.315,4.6125
+272,Brunei,Tanjong Salirontanjo,115.11055555555555,4.893333333333333
+273,Bulgaria,Balchik,28.16916666666667,43.40833333333333
+274,Bulgaria,Burgas,27.49138888888889,42.437777777777775
+275,Bulgaria,Kavarna,28.2,43.25972222222222
+276,Bulgaria,Nessebar,27.722777777777775,42.66
+277,Bulgaria,Sofia,23.5,43.11666666666667
+278,Bulgaria,Varna,27.92138888888889,43.20638888888889
+279,Cambodia,Kompong Som,103.5,10.633055555555556
+280,Cambodia,Phnom Penh,104.91666666666667,11.583055555555555
+281,Cambodia,Sihanoukville,103.52416666666666,10.607777777777777
+282,Cameroon,Douala,9.695277777777777,4.0472222222222225
+283,Cameroon,Ebome Marine Terminal,9.893333333333333,2.7777777777777777
+284,Cameroon,Garoua,13.350000000000001,9.316666666666666
+285,Cameroon,Kole Terminal,8.55,4.216666666666667
+286,Cameroon,Kribi,9.933055555555555,2.9330555555555553
+287,Cameroon,Limboh Terminal,9.116666666666667,4.016388888888889
+288,Cameroon,Moudi Terminal,8.483055555555556,4.116666666666666
+289,Cameroon,Tiko,9.29,3.9980555555555557
+290,Cameroon,Victoria,9.20111111111111,4.016388888888889
+291,Canada,Aklavik,-135.0,68.12972222222221
+292,Canada,Amherst,,47.23305555555556
+293,Canada,Amherstburg,,42.087500000000006
+294,Canada,Annapolis Royal,,44.731388888888894
+295,Canada,Argentia,,47.275555555555556
+296,Canada,Arichat,,45.516666666666666
+297,Canada,Baddeck,,46.095555555555556
+298,Canada,Baie Comeau,,49.21666666666667
+299,Canada,Baie Verte,,49.92527777777777
+300,Canada,Bathurst,,47.61666666666667
+301,Canada,Bay Roberts,,47.58305555555556
+302,Canada,Bayside,,45.15
+303,Canada,Beaver Harbour,,45.05333333333333
+304,Canada,Becancour,,46.36
+305,Canada,Bella Coola,,52.38305555555556
+306,Canada,Belledune,,47.901666666666664
+307,Canada,Blanc-Sablon,,51.4175
+308,Canada,Botwood,,49.12416666666667
+309,Canada,Brandon,,49.5
+310,Canada,Bridgewater,,44.38305555555556
+311,Canada,Brooks,,50.34
+312,Canada,Buctouche Harbour,,46.47361111111111
+313,Canada,Burgeo,,47.61666666666667
+314,Canada,Burin,,47.03
+315,Canada,Calgary,,51.08305555555556
+316,Canada,Cambridge Bay,,69.06972222222223
+317,Canada,Campbell River,,50.014722222222225
+318,Canada,Campbellton,,48.01027777777778
+319,Canada,Canso,,45.249722222222225
+320,Canada,Cap-aux-Meules,,47.38305555555556
+321,Canada,Caraquet,,47.786944444444444
+322,Canada,Carbonear,,47.744166666666665
+323,Canada,Carleton,,48.10583333333334
+324,Canada,Carmanville,,49.42027777777778
+325,Canada,Catalina,,48.519444444444446
+326,Canada,Centerm,,49.286944444444444
+327,Canada,Chandler,,48.346944444444446
+328,Canada,Charlottetown,,46.234722222222224
+329,Canada,Chatham,,47.033055555555556
+330,Canada,Chemainus,,48.916666666666664
+331,Canada,Chicoutimi,,48.427499999999995
+332,Canada,Churchill,,58.74111111111111
+333,Canada,Clarenville,,48.16611111111111
+334,Canada,Clarkson,,43.5
+335,Canada,Cobourg,,43.57972222222222
+336,Canada,Collingwood,,44.49777777777778
+337,Canada,Come By Chance,,47.79972222222222
+338,Canada,Comox,,49.67527777777777
+339,Canada,Concord,,45.8425
+340,Canada,Corner Brook,,48.95
+341,Canada,Cornwall,,45.02611111111111
+342,Canada,Country Harbour,,45.13305555555556
+343,Canada,Cowichan Bay,,48.720555555555556
+344,Canada,Crofton,,48.855000000000004
+345,Canada,Dalhousie,,48.06944444444445
+346,Canada,Dartmouth,,44.4
+347,Canada,Digby,,44.63305555555556
+348,Canada,Dingwall,,46.54
+349,Canada,Don Mills,,43.439722222222215
+350,Canada,Duncan Bay,,50.06666666666667
+351,Canada,Edmonton,,53.50972222222222
+352,Canada,Esquimalt,,48.427499999999995
+353,Canada,Fraser Port,,49.35444444444445
+354,Canada,Fraser Surrey Docks,,49.18527777777778
+355,Canada,Gaspe,,48.81666666666667
+356,Canada,Georgetown,,46.16222222222222
+357,Canada,Godbout,,49.32361111111111
+358,Canada,Goderich,,43.75
+359,Canada,Gold River,,49.683055555555555
+360,Canada,Goose Bay,,53.365833333333335
+361,Canada,Grand Bank,,47.094166666666666
+362,Canada,Grande Anse,,47.47972222222222
+363,Canada,Gros Cacouna,,47.909166666666664
+364,Canada,Halifax,,44.62555555555556
+365,Canada,Hamilton,,43.266666666666666
+366,Canada,Hantsport,,45.06666666666667
+367,Canada,Harbour Breton,,47.476111111111116
+368,Canada,Harbour Grace,,47.69611111111111
+369,Canada,Harmac,,49.07972222222222
+370,Canada,Havre St.Pierrehavre,,50.24111111111111
+371,Canada,High River,,50.34
+372,Canada,Holyrood,,47.38305555555556
+373,Canada,Hull,,45.37277777777778
+374,Canada,Iona,,45.96083333333333
+375,Canada,Iqaluit,,63.733333333333334
+376,Canada,Kelsey Bay,,50.39277777777778
+377,Canada,Kingston,,44.22777777777778
+378,Canada,Kingsville,,42.033055555555556
+379,Canada,Kitimat,,53.959722222222226
+380,Canada,La Have,,44.285555555555554
+381,Canada,Les Escoumins,,48.3525
+382,Canada,Les Mechins,,48.98444444444444
+383,Canada,Lewisporte,,49.25
+384,Canada,Little Narrows,,46.024166666666666
+385,Canada,Liverpool,,44.05
+386,Canada,Lockeport,,43.69499999999999
+387,Canada,Long Harbour,,47.430277777777775
+388,Canada,Long Pond,,47.516666666666666
+389,Canada,Louisbourg,,45.916666666666664
+390,Canada,Lunenburg,,44.38305555555556
+391,Canada,Main Brook,-56.0,51.166666666666664
+392,Canada,Mandeville,,46.219722222222224
+393,Canada,Marathon,,48.73305555555556
+394,Canada,Marystown,,47.166666666666664
+395,Canada,Matane,,43.98305555555556
+396,Canada,Medicine Hat,,50.019999999999996
+397,Canada,Meteghan,,44.22916666666667
+398,Canada,Michipicoten Harbour,,47.96666666666667
+399,Canada,Middle Point,,50.11833333333333
+400,Canada,Midland,,44.75333333333333
+401,Canada,Mississauga,,43.35
+402,Canada,Montague,,46.09
+403,Canada,Montreal,,45.51416666666667
+404,Canada,Mulgrave,,45.589444444444446
+405,Canada,Nanaimo,,49.159444444444446
+406,Canada,Nanisivik,,73.06666666666666
+407,Canada,Natashquan,,50.183055555555555
+408,Canada,Newcastle,,47.0
+409,Canada,New Glasgow,,45.6
+410,Canada,New Richmond,,48.13777777777778
+411,Canada,North Sydney,,46.26
+412,Canada,Oakville,,43.441111111111105
+413,Canada,Ocean Falls,,52.35
+414,Canada,Oshawa,,43.86666666666667
+415,Canada,Owen Sound,,44.58305555555556
+416,Canada,Parrsboro,,45.4
+417,Canada,Parry Sound,,45.406388888888884
+418,Canada,Paspebiac,,48.02833333333333
+419,Canada,Penetanguishene,,44.766666666666666
+420,Canada,Penticton,,49.3
+421,Canada,Pictou,,45.683055555555555
+422,Canada,Pointe-au-Pic,,47.63138888888889
+423,Canada,Pointe Noire,,50.09
+424,Canada,Point Tupper,,45.359722222222224
+425,Canada,Port Alfred,,48.328611111111115
+426,Canada,Port Alice,,50.40861111111111
+427,Canada,Port Aux Barqueport,,49.24027777777778
+428,Canada,Port aux Basques,,47.56666666666667
+429,Canada,Port Cartier,,50.02777777777778
+430,Canada,Port Hardy,,50.76305555555555
+431,Canada,Port Hawkesbury,,45.6025
+432,Canada,Port Hope,,43.96666666666667
+433,Canada,Port Medway,,44.11666666666667
+434,Canada,Port Mellon,,49.52111111111111
+435,Canada,Portneuf,,46.69194444444444
+436,Canada,Port Saguenay,,48.394444444444446
+437,Canada,Port Stanley,,42.695277777777775
+438,Canada,Port Weller,,43.13
+439,Canada,Powell River,,49.846111111111114
+440,Canada,Prescott,,44.71666666666667
+441,Canada,Prince Albert,,53.109722222222224
+442,Canada,Prince Rupert,,54.261944444444445
+443,Canada,Pugwash,,45.86666666666667
+444,Canada,Quebec,,46.79527777777778
+445,Canada,Red Lake,,51.04
+446,Canada,Richibucto,,46.683055555555555
+447,Canada,Rimouski,,48.42944444444444
+448,Canada,Riverport,,44.18
+449,Canada,Roberts Bank,,48.9925
+450,Canada,Saguenay,,48.25
+451,Canada,Sainte-Anne-des-Monts,,49.120555555555555
+452,Canada,Saint John,,45.266666666666666
+453,Canada,Sarnia,,42.971944444444446
+454,Canada,Saskatoon,,52.13305555555556
+455,Canada,Saulte Ste Marie,,46.516666666666666
+456,Canada,Sept-Iles,,50.2025
+457,Canada,Shediac,,46.231944444444444
+458,Canada,Sheet Harbour,,44.83305555555556
+459,Canada,Shelburne,,43.74027777777778
+460,Canada,Sherbrooke,-62.0,45.07972222222222
+461,Canada,Shippegan,,47.75361111111111
+462,Canada,Sorel,,46.033055555555556
+463,Canada,Souris,,46.35
+464,Canada,Spragge,,46.21666666666667
+465,Canada,Springdale,,49.5
+466,Canada,Squamish,,49.67194444444444
+467,Canada,St Anthony,,51.36944444444445
+468,Canada,Stephenville,,48.529444444444444
+469,Canada,Stewart,,55.908055555555556
+470,Canada,St. John,,45.266666666666666
+471,Canada,St John's,,45.266666666666666
+472,Canada,St. Lawrence,,46.42027777777778
+473,Canada,St Romuald,,46.754444444444445
+474,Canada,Summerside,,46.38944444444444
+475,Canada,Sydney,,46.16694444444444
+476,Canada,Tahsis,,49.916666666666664
+477,Canada,Texada Island,,49.70611111111111
+478,Canada,Thunder Bay,,48.45
+479,Canada,Tillsonburg,,42.50972222222222
+480,Canada,Toronto,,43.68083333333333
+481,Canada,Trenton,,45.36972222222222
+482,Canada,Trois-Rivieres,,46.328611111111115
+483,Canada,Tuktoyaktuk,,69.45
+484,Canada,Twillingate,,49.666666666666664
+485,Canada,Valleyfield,,45.206944444444446
+486,Canada,Vancouver,,49.308055555555555
+487,Canada,Vancouver Centerm Terminal,,49.28777777777778
+488,Canada,Victoria,,48.425
+489,Canada,Wabush,,52.55
+490,Canada,Watson Island,,54.14
+491,Canada,Welland,,43.18444444444444
+492,Canada,Weymouth,-66.0,44.45
+493,Canada,Wheatley,,42.059999999999995
+494,Canada,Winchester,,45.05
+495,Canada,Windsor,,42.31666666666667
+496,Canada,Winnipeg,,50.31305555555555
+497,Canada,Woodfibre,,49.666666666666664
+498,Canada,Yarmouth,,43.83305555555556
+499,Cape Verde,Porto Grande,,16.890833333333333
+500,Cape Verde,Porto Praia,,14.918333333333333
+501,Cape Verde,Sal Island,,16.70611111111111
+502,Cayman Islands,Cayman Brac,,19.75
+503,Cayman Islands,Georgetown,,19.3
+504,Chile,Ancud,,
+505,Chile,Antofagasta,,
+506,Chile,Arica,,
+507,Chile,Balmaceda,,
+508,Chile,Barquito,,
+509,Chile,Cabo Negro,,
+510,Chile,Caldera,,
+511,Chile,Calderilla,,
+512,Chile,Caleta Barquito,,
+513,Chile,Caleta Coloso,,
+514,Chile,Caleta Patillos,,
+515,Chile,Castro,,
+516,Chile,Chacabuco,,
+517,Chile,Coquimbo,,
+518,Chile,Coronel,,
+519,Chile,Corral,,
+520,Chile,Cruz Grande,,
+521,Chile,Easter Island,,
+522,Chile,Guayacan,,
+523,Chile,Huasco,,
+524,Chile,Iquique,,
+525,Chile,Isla de Pascua,,
+526,Chile,Isla Guarello,,
+527,Chile,La Chimba Cove,,
+528,Chile,La Serena,,
+529,Chile,Lirquen,,
+530,Chile,Lota,,
+531,Chile,Magellan Strait Area,,
+532,Chile,Mejillones,,
+533,Chile,Patillos Cove,,
+534,Chile,Penco,,
+535,Chile,Port Williams,,
+536,Chile,Puerto Angamos,,
+537,Chile,Puerto Chacabuco,,
+538,Chile,Puerto Montt,,
+539,Chile,Puerto Natales,,
+540,Chile,Puerto Ventanas,,
+541,Chile,Punta Arenas,,
+542,Chile,Punta Patache,,
+543,Chile,Quellon,,
+544,Chile,Quemchi,,
+545,Chile,Quintero,,
+546,Chile,San Antonio,,
+547,Chile,San Vicente,,
+548,Chile,Talcahuano,,
+549,Chile,Taltal,,
