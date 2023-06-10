@@ -34,12 +34,12 @@ jobs:
         
       - name: Load DVC datasets
         run: |
-          dvc import route_github.csv.dvc data/
+          dvc import route_github.csv.dvc MLOPS-FYP/
       
           
       - name: Run training
         run: |
-          python vs_anomaly.py --data ../data/route_github.csv
+          python vs_anomaly.py --data ../MLOPS-FYP/route_github.csv
          
 
       - name: Save models to DVC
@@ -51,7 +51,7 @@ jobs:
 
       - name: Deploy Flask app
         env:
-          MODEL1_PATH: models/model1.pkl
+          MODEL1_PATH: models/model_route.pkl
         
         run: |
           python server.py
