@@ -50,6 +50,11 @@ pipeline {
         sh "dvc import route_github.csv.dvc Data_Files/"
       }
     }
+    stage("Train models") {
+      steps {
+        sh "python MLFlow_route.py"
+      }
+    }
     
     stage("Run training") {
       steps {
