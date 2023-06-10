@@ -38,6 +38,7 @@ jobs:
       - name: Run Flask app
         run: |
           cd app/
+          pip install -r requirements.txt
           python server.py
 #       - name: Deploy to Flask app
 #         uses: peaceiris/actions-gh-pages@v3
