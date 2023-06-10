@@ -24,6 +24,7 @@ tr=tr.dropna(axis=0)
 
 tr= tr.drop(['VesselName','IMO','SOG','COG','CallSign','VesselType','Status','Length','Width','Draft','Cargo','TransceiverClass','BaseDateTime'],axis=1)
 print(tr.columns)
+tr=tr.drop(['Unnamed: 0'])
 
 scaler = StandardScaler()
 
