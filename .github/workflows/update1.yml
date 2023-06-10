@@ -27,7 +27,7 @@ jobs:
         run: python vs_anomaly.py --data route_github.csv
         
       - name: Copy model to Flask app
-        run: cp model.pkl app/
+        run: cp modelroute.h5 app/
 
       - name: Set up Flask environment
         run: |
