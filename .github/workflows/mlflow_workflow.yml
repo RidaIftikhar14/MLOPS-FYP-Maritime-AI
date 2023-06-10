@@ -22,6 +22,11 @@ jobs:
         python-version: 3.8
     - name: Install DVC
       run: pip install dvc
+    - name: Install mlfow
+      run: pip install mlflow
+      
+    - name: Install airflow
+      run: pip install apache-airflow
 
     - name: Install other dependencies
       run: pip install -r requirements.txt
@@ -34,6 +39,6 @@ jobs:
 
 
     - name: Train models
-      run: python MLFlow_route.py
+      run: python ml_air_flow_for_route.py
 
    
