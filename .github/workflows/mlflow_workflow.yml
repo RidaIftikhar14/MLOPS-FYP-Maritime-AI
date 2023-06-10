@@ -33,6 +33,6 @@ jobs:
       run: dvc pull -r gdrive MLOPS-FYP/route_data.csv
 
     - name: Train models
-      run: python speed_prediction.py
+      run: python Vs_anomaly.py
 
    
