@@ -30,7 +30,7 @@ jobs:
       run: dvc remote add -f gdrive gdrive:1TcslBQ2BQ5kNbIYLbQENGpW1UfrR1rH-
       
     - name: Pull DVC-tracked data
-      run: dvc pull -r gdrive
+      run: dvc pull -r gdrive MLOPS-FYP/kinematics_data.csv
 
     - name: Train models
       run: python speed_prediction.py
