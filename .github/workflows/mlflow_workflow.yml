@@ -30,7 +30,7 @@ jobs:
       run: dvc remote add -f gdrive gdrive:1TcslBQ2BQ5kNbIYLbQENGpW1UfrR1rH-
       
     - name: Pull DVC-tracked data
-      run: dvc pull -r gdrive
+      run: dvc pull MLOPS-FYP/route_github.csv
 
 
     - name: Train models
