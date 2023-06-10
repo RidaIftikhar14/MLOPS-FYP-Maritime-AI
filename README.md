@@ -9,4 +9,4 @@ It is not efficient to always keep an eye on the vessels within a region in case
 ● Anomalous movement of materials from vessels, an intelligent algorithm will be designed to read and analyze the dispersal pattern of cargo according to temporal and spatial information. In case of unusual movements from the vessel an alarm will be generated.
 
 # AIS Data
-The data being used for the Maritime Decision Support System is being utilized from https://marinecadastre.gov/ais/. We have currently used data for the year 2022. The data for 2022 is availible for 12 months. For instance AIS_2022_01_01 and AIS_2022_01_31 are one of the file names for the month of January.
+The data being used for the Maritime Decision Support System is being utilized from https://marinecadastre.gov/ais/. We have currently used data for the year 2022. The data for 2022 is availible for 12 months. For instance AIS_2022_01_01 and AIS_2022_01_31 are one of the file names for the month of January .
