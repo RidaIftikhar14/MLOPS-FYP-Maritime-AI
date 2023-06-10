@@ -27,7 +27,7 @@ jobs:
       run: pip install -r requirements.txt
       
     - name: Configure Google Drive remote
-      run: dvc remote add -d gdrive gdrive:1TcslBQ2BQ5kNbIYLbQENGpW1UfrR1rH-
+      run: dvc remote add -f gdrive gdrive:1TcslBQ2BQ5kNbIYLbQENGpW1UfrR1rH-
       
     - name: Pull DVC-tracked data
       run: dvc pull -r gdrive
