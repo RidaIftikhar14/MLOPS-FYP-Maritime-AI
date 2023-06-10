@@ -40,12 +40,12 @@ jobs:
         
       - name: Load DVC datasets
         run: |
-          dvc import route_github.csv.dvc MLOPS-FYP/
+          dvc import route_github.csv.dvc Data_Files/
       
           
       - name: Run training
         run: |
-          python vs_anomaly.py --data ../MLOPS-FYP/route_github.csv
+          python vs_anomaly.py --data ../Data_Files/route_github.csv
          
 
       - name: Save models to DVC
