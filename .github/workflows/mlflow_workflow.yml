@@ -30,7 +30,14 @@ jobs:
       run: dvc remote add -f gdrive gdrive:1TcslBQ2BQ5kNbIYLbQENGpW1UfrR1rH-
       
     - name: Pull DVC-tracked data
-      run: dvc pull 
+      run: |
+            dvc remove MLOPS-FYP/kinematics_data.csv
+            dvc remove MLOPS-FYP/route_github.csv
+            dvc remove CompleteJourney_update.csv
+            dvc remove MLOPS-FYP/cargo_data.csv
+            dvc remove MLOPS-FYP/route_data.csv
+            dvc remove MLOPS-FYP/speed_bounds_update.csv
+            dvc pull 
 
 
     - name: Train models
