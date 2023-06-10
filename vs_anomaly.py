@@ -15,7 +15,7 @@ model = tf.keras.Sequential([
 # Compile the model
 
 model.compile(optimizer='adam', loss='mse')
-tr=pd.read_csv('CompleteJourney_update.csv')
+tr=pd.read_csv('route_github.csv')
 vessel=['T.ADALYN','DALI','NAVE GALACTIC','STARDUST','ISLENO','ARRIBA','BEVERLY M I','CHICAGO EXPRESS','ELKA HERCULES','FROSTI','GLOVIS CAPTAIN','GOLDEN ALASKA','HYUNDAI PRIDE','KEN HOU','RUBY M','KODIAK ENTERPRISE','VIDA','WESTWOOD RAINIER']
 tr=tr[tr['VesselName'].isin(vessel)]
 #tr=tr.drop(['MMSI','IMO','SOG','COG','CallSign','VesselType','Status','Length','Width','Draft','Cargo','TransceiverClass'],axis=1)
@@ -30,7 +30,7 @@ scaler = StandardScaler()
 ft=pd.DataFrame()
 
 scaler = StandardScaler()
-dg=pd.read_csv('CompleteJourney_update.csv')
+dg=pd.read_csv('route_github.csv')
 vv=dg[dg['VesselName']=='ISLENO']
 noise_lat = np.random.normal(0, 5, len(vv)-2)
 noise_lon = np.random.normal(0, 5, len(vv)-2)
@@ -57,7 +57,7 @@ ft.iloc[1:len(ft)-1, ft.columns.get_loc('LON')] +=noise_lon
 print(ft.columns)
 ft=ft.dropna()
 
-dg=pd.read_csv('CompleteJourney_update.csv')
+dg=pd.read_csv('route_github.csv')
 ft1=pd.DataFrame()
 vv=dg[dg['VesselName']=='STARDUST']
 noise_lat = np.random.normal(0, 5, len(vv)-2)
