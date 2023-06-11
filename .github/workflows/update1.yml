@@ -24,22 +24,31 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Train model
-        run: python vs_anomaly.py --data route_github.csv
+#       - name: Train model
+#         run: python vs_anomaly.py --data route_github.csv
         
-      - name: Copy model to Flask app
-        run: cp modelroute.h5 app/
-
-      - name: Set up Flask environment
+#       - name: Copy model to Flask app
+#         run: cp modelroute.h5 app/
+        
+      - name: Lint training code with Pylint
         run: |
-          cd app/
+            pylint vs_anomaly.py
+            
+      - name: Lint flask code with Pylint
+        run: |
+            cd app/
+            pylint server.py
+
+#       - name: Set up Flask environment
+#         run: |
+#           cd app/
         
 
-      - name: Run Flask app
-        run: |
-          cd app/
-          pip install -r requirements.txt
-          python server.py
+#       - name: Run Flask app
+#         run: |
+#           cd app/
+#           pip install -r requirements.txt
+#           python server.py
 #       - name: Deploy to Flask app
 #         uses: peaceiris/actions-gh-pages@v3
     
