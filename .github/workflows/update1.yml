@@ -23,6 +23,7 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
+          
 
 #       - name: Train model
 #         run: python vs_anomaly.py --data route_github.csv
@@ -32,6 +33,7 @@ jobs:
         
       - name: Lint training code with Pylint
         run: |
+            pip install pylint
             pylint vs_anomaly.py
             
       - name: Lint flask code with Pylint
