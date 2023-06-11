@@ -35,8 +35,7 @@ jobs:
         
 
 
-#       - name: Pull DVC data
-#         run: dvc pull
+
         
       - name: Load DVC datasets
         run: |
